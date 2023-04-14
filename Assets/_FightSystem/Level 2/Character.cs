@@ -48,7 +48,7 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         {
             get
             {
-                return _baseHealth ;
+                return _baseHealth;
             }
         }
         /// <summary>
