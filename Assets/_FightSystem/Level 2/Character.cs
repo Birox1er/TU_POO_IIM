@@ -46,40 +46,34 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         /// </summary>
         public int MaxHealth
         {
-            get
-            {
-                return _baseHealth;
-            }
+            get => _baseHealth;
+            private set => _baseHealth = value;
+
         }
         /// <summary>
         /// ATK, prendre en compte base et equipement potentiel
         /// </summary>
         public int Attack
         {
-            get
-            {
-                return _baseAttack;
-            }
+            get => _baseAttack;
+            private set => _baseAttack = value;
+
         }
         /// <summary>
         /// DEF, prendre en compte base et equipement potentiel
         /// </summary>
         public int Defense
         {
-            get
-            {
-                return _baseDefense;
-            }
+            get => _baseDefense;
+            private set => _baseDefense = value;
         }
         /// <summary>
         /// SPE, prendre en compte base et equipement potentiel
         /// </summary>
         public int Speed
         {
-            get
-            {
-                return _baseSpeed;
-            }
+            get => _baseSpeed;
+            private set => _baseSpeed = value;
         }
         /// <summary>
         /// Equipement unique du personnage
